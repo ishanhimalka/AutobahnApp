@@ -1,0 +1,29 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.dropdown{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+    padding-left: 105px;
+}
+.dropdown select {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.dropdown select:focus-visible {
+    outline: 0;
+}
